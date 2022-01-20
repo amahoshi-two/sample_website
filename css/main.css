@@ -1,6 +1,51 @@
+.header {
+  margin: 0 0 80px;
+}
+
+header > h1, header > h2 {
+  text-align: center;
+}
+
 .nav-menu {
   text-align: right;
 }
+.nav-menu > a {
+  text-decoration: none; 
+  color: blue;
+}
 .nav-spacing {
   margin-left: 10px;
+}
+
+.image-link {
+  text-decoration: none;
+}
+.image-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.appendix {
+  width: 560px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #FAFAFA;
+}
+
+.appendix img { 
+  height: 200px;
+  float: left;
+  margin-right: 40px;
+}
+
+.appendix blockquote {
+  font-style: italic; 
+  font-size: 20px;
+}
+
+.quote-strong {
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FF0000;
 }
